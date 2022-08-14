@@ -13,7 +13,9 @@
     />
   </head>
   <body>
-    <nav class="flex justify-between items-center p-4">
+    <nav
+      class="flex justify-between items-center p-4 lg:px-8 xlg:px-12 text-sm"
+    >
       <div class="flex items-center justify-between lg:hidden">
         <button class="space-y-1 cursor-pointer">
           <span class="block h-[0.1rem] w-5 bg-black"></span>
@@ -22,28 +24,44 @@
         </button>
         <span class="material-symbols-outlined pl-4 hidden"> search </span>
       </div>
-      <div class="logo cursor-pointer h-[1.35rem] min-w-28 flex lg:order-1">
-        <img src="./img/logo.png" alt="Microsoft" class="h-full" />
+
+      <div class="flex items-center">
+        <div class="logo cursor-pointer h-[1.35rem] lg:order-1">
+          <img src="./img/logo.png" alt="Microsoft" class="h-full" />
+        </div>
         <div
-          class="features hidden lg:flex lg:items-center lg:ml-4 lg:space-x-3"
+          class="features hidden absolute top-14 left-0 lg:static lg:flex lg:order-2 lg:items-center lg:ml-6 lg:space-x-3"
         >
-          <a href="#" class="hover:underline">Microsoft 365</a>
-          <a href="#" class="hover:underline">Office</a>
-          <a href="#" class="hover:underline">Windows</a>
-          <a href="#" class="hover:underline">Surface</a>
-          <a href="#" class="hover:underline">Xbox</a>
-          <a href="#" class="hover:underline">Support</a>
+          <a href="#" class="hover:underline block">Microsoft 365</a>
+          <a href="#" class="hover:underline block">Office</a>
+          <a href="#" class="hover:underline block">Windows</a>
+          <a href="#" class="hover:underline block">Surface</a>
+          <a href="#" class="hover:underline block">Xbox</a>
+          <a href="#" class="hover:underline block">Support</a>
         </div>
       </div>
-      <div class="flex items-center justify-between lg:order-2 space-x-4">
+      <div
+        class="flex items-center justify-between lg:order-3 space-x-4 xlg:space-x-7"
+      >
         <button class="hidden lg:block hover:underline">All Microsoft</button>
-        <div class="hidden lg:flex lg:items-center cursor-pointer">
+        <div
+          class="hidden lg:flex lg:items-center cursor-pointer xlg:space-x-2"
+        >
+          <span class="hidden xlg:block">Search</span>
           <span class="material-symbols-outlined">search</span>
         </div>
-        <span class="material-symbols-outlined"> shopping_cart </span>
-        <span class="material-symbols-outlined cursor-pointer">
-          account_circle
-        </span>
+        <div class="lg:flex lg:items-center cursor-pointer xlg:space-x-2">
+          <span class="hidden xlg:block">cart</span>
+
+          <span class="material-symbols-outlined"> shopping_cart </span>
+        </div>
+        <div class="lg:flex lg:items-center cursor-pointer xlg:space-x-2">
+          <span class="hidden xlg:block">Sign in</span>
+
+          <span class="material-symbols-outlined cursor-pointer">
+            account_circle
+          </span>
+        </div>
       </div>
     </nav>
   </body>
