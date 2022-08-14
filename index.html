@@ -13,18 +13,31 @@
   </head>
   <body>
     <nav class="flex justify-between items-center p-4">
-      <div class="flex items-center justify-between">
+      <div class="flex items-center justify-between lg:hidden">
         <button class="space-y-1 cursor-pointer">
           <span class="block h-[0.1rem] w-5 bg-black"></span>
           <span class="block h-[0.1rem] w-5 bg-black"></span>
           <span class="block h-[0.1rem] w-5 bg-black"></span>
         </button>
-        <span class="material-symbols-outlined pl-4"> search </span>
+        <span class="material-symbols-outlined pl-4 hidden"> search </span>
       </div>
-      <div class="logo cursor-pointer h-[1.35rem]">
+      <div class="logo cursor-pointer h-[1.35rem] flex lg:order-1">
         <img src="./img/logo.png" alt="Microsoft" class="h-full" />
+        <div
+          class="features hidden lg:flex lg:items-center lg:ml-4 lg:space-x-3"
+        >
+          <a href="#" class="hover:underline">Microsoft 365</a>
+          <a href="#" class="hover:underline">Office</a>
+          <a href="#" class="hover:underline">Windows</a>
+          <a href="#" class="hover:underline">Surface</a>
+          <a href="#" class="hover:underline">Xbox</a>
+          <a href="#" class="hover:underline">Support</a>
+        </div>
       </div>
-      <div class="flex items-center justify-between">
+      <div class="flex items-center justify-between lg:order-2">
+        <div class="hidden lg:flex lg:items-center pr-4 cursor-pointer">
+          <span class="material-symbols-outlined">search</span>
+        </div>
         <span class="material-symbols-outlined pr-4"> shopping_cart </span>
         <span class="material-symbols-outlined cursor-pointer">
           account_circle
