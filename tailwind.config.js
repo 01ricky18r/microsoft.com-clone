@@ -8,7 +8,11 @@ module.exports = {
       slg: "1070px",
       xlg: "1400px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        s: ["Segoe UI", "Helvetica Neue", "Arial", "sans - serif"],
+      },
+    },
   },
   plugins: [],
 };
