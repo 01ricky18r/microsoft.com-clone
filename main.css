@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .sm-feature-el{
+        @apply p-5 outline outline-1 outline-gray-300 lg:outline-none lg:p-0;
+    }
+}
