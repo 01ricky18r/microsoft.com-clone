@@ -86,40 +86,60 @@
       </div>
     </nav>
 
-    <div
-      class="slider bg-white flex flex-col-reverse slg:flex-row xlg:h-[30rem]"
-    >
-      <div class="left lg:px-3 w-full slg:bg-gray-100">
-        <div
-          class="space-y-4 bg-white shadow-xl p-6 slg:w-72 slg:bg-transparent slg:shadow-none slg:mx-24 slg:mt-28 xlg:mt-16"
-        >
-          <h2 class="text-2xl font-semibold leading-none slg:text-3xl">
-            Microsoft 365
-          </h2>
-          <p class="font-s">
-            Premium Office apps, extra cloud storage, advanced security, and
-            more – all in one convenient subscription
-          </p>
+    <section class="carousel-container">
+      <div
+        class="slider bg-white flex flex-col-reverse slg:flex-row xlg:h-[30rem]"
+      >
+        <div class="left lg:px-3 w-full slg:bg-[#f2f2f2] slg:flex items-center">
+          <div
+            class="space-y-4 bg-white shadow-xl p-6 slg:w-72 slg:bg-transparent slg:shadow-none slg:mx-[10vw]"
+          >
+            <h2 class="text-2xl font-semibold leading-none slg:text-3xl">
+              Microsoft 365
+            </h2>
+            <p class="font-s">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription
+            </p>
 
-          <button
-            class="inline-block bg-[#0067b8] text-white px-3 py-[0.625rem] leading-none my-2 mr-4"
-          >
-            For up to 6 people
-          </button>
-          <a href="#" class="inline-block text-[#0067b8] font-semibold my-2"
-            >For 1 person</a
-          >
+            <button
+              class="inline-block bg-[#0067b8] text-white px-3 py-[0.625rem] leading-none my-2 mr-4"
+            >
+              For up to 6 people
+            </button>
+            <a href="#" class="inline-block text-[#0067b8] font-semibold my-2"
+              >For 1 person</a
+            >
+          </div>
+        </div>
+        <div
+          class="right float-right h-72 lg:h-[28rem] w-full slg:h-full xlg:h-[30rem] overflow-hidden"
+        >
+          <img
+            class="object-cover lg:object-center w-full h-full slg:object-fill xlg:object-cover overflow-hidden"
+            src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-M365-Screenplates-Update-Excel:VP1-539x440"
+            alt="banner"
+          />
         </div>
       </div>
-      <div
-        class="right float-right h-72 lg:h-[28rem] w-full slg:h-full xlg:h-[30rem] overflow-hidden"
-      >
-        <img
-          class="object-cover lg:object-center w-full h-full slg:object-fill xlg:object-cover overflow-hidden"
-          src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-M365-Screenplates-Update-Excel:VP1-539x440"
-          alt="banner"
-        />
+      <div class="carousel-control flex justify-center items-center py-4">
+        <button class="">
+          <span class="material-symbols-outlined"> arrow_back_ios </span>
+        </button>
+        <div
+          class="disc flex h-full justify-center items-center space-x-3 after:content-[''] before:content-[''] mx-7"
+        >
+          <span
+            class="active bg-black border-2 border-black rounded-full h-3 w-3 inline-block"
+          ></span>
+          <span
+            class="border-2 border-black rounded-full h-3 w-3 inline-block"
+          ></span>
+        </div>
+        <button>
+          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+        </button>
       </div>
-    </div>
+    </section>
   </body>
 </html>
