@@ -13,78 +13,80 @@
     />
   </head>
   <body>
-    <nav
-      class="navbar flex justify-between items-center p-4 lg:px-8 xlg:px-12 text-sm"
-    >
-      <div class="flex items-center justify-between lg:hidden">
-        <button class="space-y-1 cursor-pointer">
-          <span class="block h-[0.1rem] w-5 bg-black"></span>
-          <span class="block h-[0.1rem] w-5 bg-black"></span>
-          <span class="block h-[0.1rem] w-5 bg-black"></span>
-        </button>
-        <span class="material-symbols-outlined pl-4"> search </span>
-      </div>
-
-      <div class="flex items-center">
-        <a class="logo cursor-pointer w-[108px] flex-shrink-0 lg:order-1">
-          <img src="./img/logo.png" alt="Microsoft" class="w-full" />
-        </a>
-        <ul
-          class="features -translate-x-[100vw] bg-gray-200 w-full absolute top-14 left-0 lg:-translate-x-0 lg:bg-transparent lg:static lg:flex lg:order-2 lg:items-center lg:ml-6 lg:space-x-3"
-        >
-          <li class="sm-feature-el">
-            <a href="#" class="hover:underline block">Microsoft 365</a>
-          </li>
-          <li class="sm-feature-el">
-            <a href="#" class="hover:underline block">Office</a>
-          </li>
-          <li class="sm-feature-el">
-            <a href="#" class="hover:underline block">Windows</a>
-          </li>
-          <li class="sm-feature-el">
-            <a href="#" class="hover:underline block">Surface</a>
-          </li>
-          <li class="sm-feature-el">
-            <a href="#" class="hover:underline block">Xbox</a>
-          </li>
-          <li class="sm-feature-el">
-            <a href="#" class="hover:underline block">Support</a>
-          </li>
-          <div class="ex-features lg:hidden">
-            <li class="sm-feature-el">Software</li>
-            <li class="sm-feature-el">PCs & Devices</li>
-            <li class="sm-feature-el">Entertainment</li>
-            <li class="sm-feature-el">Business</li>
-            <li class="sm-feature-el">Developer & IT</li>
-            <li class="sm-feature-el">Other</li>
-            <li class="sm-feature-el">View Sitemap</li>
-          </div>
-        </ul>
-      </div>
-      <div
-        class="flex items-center justify-between lg:order-3 space-x-4 xlg:space-x-7"
+    <section class="navbar">
+      <nav
+        class="flex justify-between items-center p-4 lg:px-8 xlg:px-12 text-sm"
       >
-        <button class="hidden lg:block hover:underline">All Microsoft</button>
+        <div class="flex items-center justify-between lg:hidden">
+          <button class="space-y-1 cursor-pointer">
+            <span class="block h-[0.1rem] w-5 bg-black"></span>
+            <span class="block h-[0.1rem] w-5 bg-black"></span>
+            <span class="block h-[0.1rem] w-5 bg-black"></span>
+          </button>
+          <span class="material-symbols-outlined pl-4"> search </span>
+        </div>
+
+        <div class="flex items-center">
+          <a class="logo cursor-pointer w-[108px] flex-shrink-0 lg:order-1">
+            <img src="./img/logo.png" alt="Microsoft" class="w-full" />
+          </a>
+          <ul
+            class="features -translate-x-[100vw] bg-gray-200 w-full absolute top-14 left-0 lg:-translate-x-0 lg:bg-transparent lg:static lg:flex lg:order-2 lg:items-center lg:ml-6 lg:space-x-3"
+          >
+            <li class="sm-feature-el">
+              <a href="#" class="hover:underline block">Microsoft 365</a>
+            </li>
+            <li class="sm-feature-el">
+              <a href="#" class="hover:underline block">Office</a>
+            </li>
+            <li class="sm-feature-el">
+              <a href="#" class="hover:underline block">Windows</a>
+            </li>
+            <li class="sm-feature-el">
+              <a href="#" class="hover:underline block">Surface</a>
+            </li>
+            <li class="sm-feature-el">
+              <a href="#" class="hover:underline block">Xbox</a>
+            </li>
+            <li class="sm-feature-el">
+              <a href="#" class="hover:underline block">Support</a>
+            </li>
+            <div class="ex-features lg:hidden">
+              <li class="sm-feature-el">Software</li>
+              <li class="sm-feature-el">PCs & Devices</li>
+              <li class="sm-feature-el">Entertainment</li>
+              <li class="sm-feature-el">Business</li>
+              <li class="sm-feature-el">Developer & IT</li>
+              <li class="sm-feature-el">Other</li>
+              <li class="sm-feature-el">View Sitemap</li>
+            </div>
+          </ul>
+        </div>
         <div
-          class="hidden lg:flex lg:items-center cursor-pointer xlg:space-x-2"
+          class="flex items-center justify-between lg:order-3 space-x-4 xlg:space-x-7"
         >
-          <span class="hidden xlg:block">Search</span>
-          <span class="material-symbols-outlined">search</span>
-        </div>
-        <div class="lg:flex lg:items-center cursor-pointer xlg:space-x-2">
-          <span class="hidden xlg:block">cart</span>
+          <button class="hidden lg:block hover:underline">All Microsoft</button>
+          <div
+            class="hidden lg:flex lg:items-center cursor-pointer xlg:space-x-2"
+          >
+            <span class="hidden xlg:block">Search</span>
+            <span class="material-symbols-outlined">search</span>
+          </div>
+          <div class="lg:flex lg:items-center cursor-pointer xlg:space-x-2">
+            <span class="hidden xlg:block">cart</span>
 
-          <span class="material-symbols-outlined"> shopping_cart </span>
-        </div>
-        <div class="lg:flex lg:items-center cursor-pointer xlg:space-x-2">
-          <span class="hidden xlg:block">Sign in</span>
+            <span class="material-symbols-outlined"> shopping_cart </span>
+          </div>
+          <div class="lg:flex lg:items-center cursor-pointer xlg:space-x-2">
+            <span class="hidden xlg:block">Sign in</span>
 
-          <span class="material-symbols-outlined cursor-pointer">
-            account_circle
-          </span>
+            <span class="material-symbols-outlined cursor-pointer">
+              account_circle
+            </span>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
     <section class="carousel-container">
       <div
         class="slider bg-white flex flex-col-reverse slg:flex-row xlg:h-[30rem]"
@@ -295,6 +297,105 @@
             </p>
             <a class="bg-[#0067b8] text-white px-3 py-2" href="#"
               >Download now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card-container">
+      <div class="flex justify-center flex-wrap">
+        <div class="card px-3 mb-12 flex flex-col flex-1 min-w-[15rem]">
+          <picture class="w-full"
+            ><img
+              class="w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-Go-2-03-M01?wid=406&hei=230&fit=crop"
+              alt="Surface laptop go"
+          /></picture>
+
+          <div class="card-header mt-5 mb-1">
+            <span class="bg-[#ffb900] px-3 py-1 font-semibold">New</span>
+          </div>
+          <div class="card-body">
+            <h2 class="text-xl font-semibold mb-2">
+              Surface Laptop Go 2 for Business
+            </h2>
+            <p class="w-full">
+              A sleek, portable laptop featuring a great typing experience,
+              Windows 11 Pro and professional-grade performance.
+            </p>
+          </div>
+          <div class="card-footer pt-5">
+            <a class="text-[#0067b8] cursor-pointer font-semibold" href="#"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div class="card px-3 mb-12 flex flex-col flex-1 min-w-[15rem]">
+          <picture class="w-full"
+            ><img
+              class="w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=406&hei=230&fit=crop"
+              alt=""
+          /></picture>
+          <div class="card-header mt-5 mb-1"></div>
+          <div class="card-body">
+            <h2 class="text-xl font-semibold mb-2">
+              Get Microsoft Teams for free
+            </h2>
+            <p class="w-full">
+              Online meetings, chat and shared cloud storage – all in one place.
+            </p>
+          </div>
+          <div class="card-footer pt-5">
+            <a class="text-[#0067b8] cursor-pointer font-semibold" href="#"
+              >Sign up for free</a
+            >
+          </div>
+        </div>
+        <span class="xmd:block w-full slg:inline slg:w-fit"></span>
+        <div class="card px-3 mb-12 flex flex-col flex-1 min-w-[15rem]">
+          <picture class="w-full"
+            ><img
+              class="w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-M365-CP-Microsoft365-Commercial?wid=406&hei=230&fit=crop"
+              alt=""
+          /></picture>
+          <div class="card-header mt-5 mb-1"></div>
+          <div class="card-body">
+            <h2 class="text-xl font-semibold mb-2">
+              Microsoft 365 for business
+            </h2>
+            <p class="w-full">
+              Stay a step ahead with powerful apps for productivity, connection
+              and security.
+            </p>
+          </div>
+          <div class="card-footer pt-5">
+            <a class="text-[#0067b8] cursor-pointer font-semibold" href="#"
+              >Shop now</a
+            >
+          </div>
+        </div>
+        <div class="card px-3 mb-12 flex flex-col flex-1 min-w-[15rem]">
+          <picture class="w-full"
+            ><img
+              class="w-full"
+              src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Windows-11-Business?wid=406&hei=230&fit=crop"
+              alt=""
+          /></picture>
+          <div class="card-header mt-5 mb-1"></div>
+          <div class="card-body">
+            <h2 class="text-xl font-semibold mb-2">
+              Windows 11 for business is here
+            </h2>
+            <p class="w-full">
+              Designed for hybrid work. Powerful for employees. Consistent for
+              IT. Secure for all.
+            </p>
+          </div>
+          <div class="card-footer pt-5">
+            <a class="text-[#0067b8] cursor-pointer font-semibold" href="#"
+              >Learn more</a
             >
           </div>
         </div>
